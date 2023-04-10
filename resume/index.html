@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>about myself</h1>
+        </nav>   
+    </header>
+    <div class ="area">
+        <img src="image/me.jpg" class="a">
+        <div class="bb">
+            <div class="b">
+                <a href="https://www.instagram.com/6214624_/">
+                    <img src="image/instagram.png" height="150px" width="150px">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100007608602024">
+                    <img src="image/fb.png" height="150px" width="150px"></a>
+                <a href="mailto:tentenchi0902@gmail.com"><img src="image/email.png" height="150px" width="150px"></a>
+            </div>
+            <div class="w">
+                喜歡的一句話：如果跌倒了，那就先躺著看看天空吧
+                <!-- content -->
+            </div>
+        </div>
+    </div>
+    <div class="area">
+        <table>
+            <tr>
+                <td>我是資管二乙 許恬綺</td>
+                <td>#很吵 #很廢 #很想睡覺</td>
+            </tr>
+            <tr>
+                <td>我喜歡出去旅遊!出去玩！!</td>
+                <td>個性很好 很讚 活潑外向</td>
+            </tr>
+        </table>
+        <img src="image/ig.jpg" class="c">
+    </div>
+
+    <article>
+    <div width="10%">
+        <h1>程式能力
+        </h1>
+        <div class="d">
+            <div><h2>整體能力</h2>
+                <script>
+                    window.onload = function test() {
+                        move();
+                    }
+                    function move() {
+                        var ans = document.getElementById("file");
+                        var value = 1;
+                        var num = document.getElementById("schedule");
+                        var id = setInterval(frame, 40);
+                        function frame() {
+                            if (value >= 30) {
+                                clearInterval(id);
+                            }
+                            else {
+                                value++;
+                                ans.value = value;
+                                num.innerHTML = value + "%";
+                              
+                            }
+                        
+                        }
+                    }
+                </script>
+            
+                <div class="array_item">
+                    <progress id="file" max="100" value="1"> </progress>
+                
+                </div>
+            </div>
+            <div><h2>python</h2>
+                <script>
+                    window.onload = function test() {
+                        move();
+                    }
+                    function move() {
+                        var ans = document.getElementById("file");
+                        var value = 1;
+                        var num = document.getElementById("schedule");
+                        var id = setInterval(frame, 40);
+                        function frame() {
+                            if (value >= 100) {
+                                clearInterval(id);
+                            }
+                            else {
+                                value++;
+                                ans.value = value;
+                                num.innerHTML = value + "%";
+                            }
+                        }
+                    }
+                </script>
+            
+                <div class="array_item">
+                    <progress id="file2" max="100" value="1"> </progress>
+        
+                </div>
+            </div>
+            <div><h2>java</h2>
+                <script>
+                    window.onload = function test() {
+                        move();
+                    }
+                    function move() {
+                        var ans = document.getElementById("file");
+                        var value = 1;
+                        var num = document.getElementById("schedule");
+                        var id = setInterval(frame, 40);
+                        function frame() {
+                            if (value >= 30) {
+                                clearInterval(id);
+                            }
+                            else {
+                                value++;
+                                ans.value = value;
+                                num.innerHTML = value + "%";
+                            }
+                        }
+                    }
+                </script>
+            
+                <div class="array_item">
+                    <progress id="file3" max="100" value="1"> </progress>
+                </div>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div>
+       
+        <h1>
+            特殊經歷
+        </h1>
+        <div class="box">
+            <div>
+            <img src="image/aikido.jpg"  alt="照片"/>
+            <h2><a href="#">從大一到大二 參加合氣道社
+                現在也是合氣道社的活動兼公關
+                在社團中學習技法與同樣喜歡武術的朋友們交流
+                也在當社團幹部中學習與人溝通及活動規劃</a></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div>
+            <img src="image/ymca.jpg" alt="照片" />
+            <h2><a href="#">大二的寒假～身為ymca的實習幹部 參與了兩梯的國際營
+                要帶著小朋友們與外籍老師交流
+                學習各個國家風俗民情
+                來領志工融入活動</a></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div>
+            <img src="image/environment.jpg" alt="照片" />
+            <h2><a href="#">大二 我加入的環服小組長的行列基本上有個禮拜會有三天需要去看大一們打掃環境 在監督他們掃地的過程中也會跟他們聊聊天 分享學校的新事物 學習與人相處</a></h2>
+            </div>
+        </div>
+    </div>
+ 
+  
+    
+</body>
+</html>
